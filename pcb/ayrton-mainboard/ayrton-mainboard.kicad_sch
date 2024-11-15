@@ -1,0 +1,134 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "11b16c18-86a9-45f7-bd03-4e81057d99ff")
+	(paper "A3")
+	(title_block
+		(title "AYRTON Main Board")
+		(date "2024-11-15")
+		(rev "0.1")
+		(company "Antikernel Labs")
+		(comment 1 "Andrew D. Zonenberg")
+	)
+	(lib_symbols)
+	(sheet
+		(at 176.53 26.67)
+		(size 30.48 36.83)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "a0a7c715-7e27-46b6-b673-903a5b100e90")
+		(property "Sheetname" "PCIe and 10 SFP+"
+			(at 176.53 25.9584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "pcie-and-10g.kicad_sch"
+			(at 176.53 64.0846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "ayrton-mainboard"
+				(path "/11b16c18-86a9-45f7-bd03-4e81057d99ff"
+					(page "7")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 104.14 26.67)
+		(size 40.64 36.83)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "a67f7086-6693-44e8-8a12-55a2cee502ce")
+		(property "Sheetname" "FPGA"
+			(at 104.14 25.9584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "fpga.kicad_sch"
+			(at 104.14 64.0846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "ayrton-mainboard"
+				(path "/11b16c18-86a9-45f7-bd03-4e81057d99ff"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 45.72 26.67)
+		(size 29.21 36.83)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "c91f89f8-d95d-41a6-af09-5cd635cc4c73")
+		(property "Sheetname" "SOC"
+			(at 45.72 25.9584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "soc.kicad_sch"
+			(at 45.72 64.0846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "ayrton-mainboard"
+				(path "/11b16c18-86a9-45f7-bd03-4e81057d99ff"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)
