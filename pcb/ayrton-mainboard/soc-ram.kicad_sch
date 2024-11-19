@@ -6,7 +6,7 @@
 	(paper "A3")
 	(title_block
 		(title "AYRTON Main Board")
-		(date "2024-11-15")
+		(date "2024-11-18")
 		(rev "0.1")
 		(company "Antikernel Labs")
 		(comment 1 "Andrew D. Zonenberg")
@@ -10130,34 +10130,71 @@
 			)
 		)
 	)
+	(hierarchical_label "GND"
+		(shape input)
+		(at 72.39 135.89 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "3f2d3de4-8098-4703-bdb5-1a4b47be3b55")
+	)
+	(hierarchical_label "1V1"
+		(shape input)
+		(at 73.66 129.54 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "793fcbfd-3ca8-42a0-a098-f0feed63e734")
+	)
+	(hierarchical_label "1V8"
+		(shape input)
+		(at 83.82 124.46 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ddb63e2c-8d48-4dda-b063-726583a120a7")
+	)
 	(symbol
 		(lib_id "st-azonenberg:STM32MP257FAI3")
-		(at 138.43 130.81 0)
+		(at 143.51 110.49 0)
 		(unit 6)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "62ad806c-9d16-449d-bf87-e2aa1a12898c")
 		(property "Reference" "U1"
-			(at 153.035 45.5125 0)
+			(at 143.51 111.8757 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "STM32MP257FAI3"
-			(at 153.035 47.9368 0)
+			(at 143.51 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 138.43 130.81 0)
+			(at 143.51 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10166,7 +10203,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 138.43 130.81 0)
+			(at 143.51 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10175,7 +10212,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 138.43 130.81 0)
+			(at 143.51 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10212,6 +10249,7 @@
 		)
 		(pin "K3"
 			(uuid "957e5cd4-3723-4c6d-9121-2531ac21de31")
+			(alternate "TRACECLK")
 		)
 		(pin "W10"
 			(uuid "a114c6c1-bbbe-4127-8dcf-828cf119107a")
@@ -10239,6 +10277,7 @@
 		)
 		(pin "H1"
 			(uuid "e835f31f-3cea-457f-a2e7-680375dbb8df")
+			(alternate "TRACED1")
 		)
 		(pin "M3"
 			(uuid "eb40ea16-a437-4927-a1f4-da5fe5dcfcbe")
@@ -10860,6 +10899,7 @@
 		)
 		(pin "L1"
 			(uuid "53f71bdb-7c52-4bdc-8751-f6eb8e1f346f")
+			(alternate "TRACED3")
 		)
 		(pin "E17"
 			(uuid "7cf64471-1e46-4e50-9dd2-2131a416aa57")
@@ -11082,6 +11122,7 @@
 		)
 		(pin "L4"
 			(uuid "8c1d5eb8-50ee-491d-a82b-32b88b453124")
+			(alternate "TRACED0")
 		)
 		(pin "U19"
 			(uuid "2fcec153-bb36-489a-9ada-53d1f43ba0a9")
@@ -11427,6 +11468,7 @@
 		)
 		(pin "L7"
 			(uuid "2e7ed046-1879-4429-8173-f55ef1c2f859")
+			(alternate "TRACED2")
 		)
 		(pin "V11"
 			(uuid "7d3ebd0c-16e4-49ae-b2e5-c53a8ee8f14f")
@@ -11496,10 +11538,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "d21e4487-9419-4d57-8737-40fc6423aa27")
 		(property "Reference" "U1"
-			(at 86.995 67.3678 0)
+			(at 71.12 109.3357 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11508,7 +11549,7 @@
 			)
 		)
 		(property "Value" "STM32MP257FAI3"
-			(at 86.995 69.7921 0)
+			(at 71.12 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11572,6 +11613,7 @@
 		)
 		(pin "K3"
 			(uuid "957e5cd4-3723-4c6d-9121-2531ac21de30")
+			(alternate "TRACECLK")
 		)
 		(pin "W10"
 			(uuid "a114c6c1-bbbe-4127-8dcf-828cf1191079")
@@ -11599,6 +11641,7 @@
 		)
 		(pin "H1"
 			(uuid "e835f31f-3cea-457f-a2e7-680375dbb8de")
+			(alternate "TRACED1")
 		)
 		(pin "M3"
 			(uuid "eb40ea16-a437-4927-a1f4-da5fe5dcfcbd")
@@ -12220,6 +12263,7 @@
 		)
 		(pin "L1"
 			(uuid "53f71bdb-7c52-4bdc-8751-f6eb8e1f346e")
+			(alternate "TRACED3")
 		)
 		(pin "E17"
 			(uuid "7cf64471-1e46-4e50-9dd2-2131a416aa56")
@@ -12442,6 +12486,7 @@
 		)
 		(pin "L4"
 			(uuid "8c1d5eb8-50ee-491d-a82b-32b88b453123")
+			(alternate "TRACED0")
 		)
 		(pin "U19"
 			(uuid "83506142-a4b4-43fe-9240-7c70b7889f25")
@@ -12787,6 +12832,7 @@
 		)
 		(pin "L7"
 			(uuid "2e7ed046-1879-4429-8173-f55ef1c2f858")
+			(alternate "TRACED2")
 		)
 		(pin "V11"
 			(uuid "7d3ebd0c-16e4-49ae-b2e5-c53a8ee8f14e")

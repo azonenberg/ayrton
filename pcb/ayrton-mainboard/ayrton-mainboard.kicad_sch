@@ -6,12 +6,88 @@
 	(paper "A3")
 	(title_block
 		(title "AYRTON Main Board")
-		(date "2024-11-15")
+		(date "2024-11-18")
 		(rev "0.1")
 		(company "Antikernel Labs")
 		(comment 1 "Andrew D. Zonenberg")
 	)
 	(lib_symbols)
+	(sheet
+		(at 45.72 99.06)
+		(size 29.21 44.45)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "12be455a-0f5e-474f-8487-685102d61b9f")
+		(property "Sheetname" "Power Supply"
+			(at 45.72 98.3484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "psu.kicad_sch"
+			(at 45.72 144.0946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "ayrton-mainboard"
+				(path "/11b16c18-86a9-45f7-bd03-4e81057d99ff"
+					(page "9")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 175.895 103.505)
+		(size 34.925 41.275)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "6c8dc794-f3c7-4dd0-aa2f-9245b1196599")
+		(property "Sheetname" "PLL"
+			(at 175.895 102.7934 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "pll.kicad_sch"
+			(at 175.895 145.3646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "ayrton-mainboard"
+				(path "/11b16c18-86a9-45f7-bd03-4e81057d99ff"
+					(page "12")
+				)
+			)
+		)
+	)
 	(sheet
 		(at 176.53 26.67)
 		(size 30.48 36.83)
@@ -24,7 +100,7 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "a0a7c715-7e27-46b6-b673-903a5b100e90")
-		(property "Sheetname" "PCIe and 10 SFP+"
+		(property "Sheetname" "PCIe and 10G SFP+"
 			(at 176.53 25.9584 0)
 			(effects
 				(font
@@ -122,6 +198,44 @@
 			(project "ayrton-mainboard"
 				(path "/11b16c18-86a9-45f7-bd03-4e81057d99ff"
 					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 104.14 101.6)
+		(size 40.64 44.45)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "f6fa3d68-580e-4966-a5d1-759c191a1b84")
+		(property "Sheetname" "ADC interfaces"
+			(at 104.14 100.8884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "adc-interfaces.kicad_sch"
+			(at 104.14 146.6346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "ayrton-mainboard"
+				(path "/11b16c18-86a9-45f7-bd03-4e81057d99ff"
+					(page "11")
 				)
 			)
 		)

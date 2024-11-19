@@ -408,7 +408,27 @@
     ],
     [
       "a0a7c715-7e27-46b6-b673-903a5b100e90",
-      "PCIe and 10 SFP+"
+      "PCIe and 10G SFP+"
+    ],
+    [
+      "bc4566cc-c6b8-48f6-8e56-68ba1114bb7f",
+      "SoC unused peripherals"
+    ],
+    [
+      "12be455a-0f5e-474f-8487-685102d61b9f",
+      "Power Supply"
+    ],
+    [
+      "fc280af4-c26f-4b89-b44b-d0704b371d36",
+      "FPGA DDR3 SODIMM"
+    ],
+    [
+      "f6fa3d68-580e-4966-a5d1-759c191a1b84",
+      "ADC interfaces"
+    ],
+    [
+      "6c8dc794-f3c7-4dd0-aa2f-9245b1196599",
+      "PLL"
     ]
   ],
   "text_variables": {}

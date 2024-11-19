@@ -1,0 +1,15 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "6e215551-94f9-4096-92ca-69f859845f95")
+	(paper "A4")
+	(title_block
+		(title "AYRTON Main Board")
+		(date "2024-11-18")
+		(rev "0.1")
+		(company "Antikernel Labs")
+		(comment 1 "Andrew D. Zonenberg")
+	)
+	(lib_symbols)
+)
