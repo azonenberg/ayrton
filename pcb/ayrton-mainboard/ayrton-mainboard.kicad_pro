@@ -429,6 +429,30 @@
     [
       "6c8dc794-f3c7-4dd0-aa2f-9245b1196599",
       "PLL"
+    ],
+    [
+      "de298342-859a-413c-b9cd-12130b1ff267",
+      "Supervisor"
+    ],
+    [
+      "03744209-a983-4849-b938-c902213428f4",
+      "0.x V rails"
+    ],
+    [
+      "9eb5fe22-4c53-4b18-94e1-a61994840d1c",
+      "1.x V rails"
+    ],
+    [
+      "4a803bb7-88a6-4ed6-b59f-c0be332fb6e9",
+      "2V and higher rails"
+    ],
+    [
+      "6980df46-ace9-491b-88d6-5618d8a2841f",
+      "SoC RGMII PHY"
+    ],
+    [
+      "05c53c6a-dac6-400e-862f-556f2c78bf38",
+      "FPGA RGMII PHY"
     ]
   ],
   "text_variables": {}

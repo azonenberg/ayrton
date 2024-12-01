@@ -13,10 +13,10 @@ startup ramps from zero and switching transients / control loop response.
 
 #### Bandwidth requirements
 
-Suppose we use six analog boards (24 channels)
+Suppose we use four analog boards (16 channels)
 
 At 100 Msps, each ADC produces 1.6 Gbps of data
-total 1.6 * 24 = 38.4 Gbps bandwidth
+total 1.6 * 16 = 25.6 Gbps bandwidth
 
 #### FPGA
 
@@ -28,7 +28,7 @@ Allocate ~all of the HPIO to a DDR3 SODIMM
 
 At 800 MT/s (conservative), 64 bit bus is 51.2 Gbps theoretical throughput
 
-So we'd need 75% throughput to run six ADCs which should be reasonably doable
+So we'd need 50% throughput to run four ADCs which should be very comfortable
 
 This leaves HR IOs largely unallocated
 
@@ -77,15 +77,5 @@ PicoBlade can handle 2.5A (26AWG) to 1.5A (32AWG) for 2-circuit, down to 1A - 0.
 Can we supply power + SPI or similar control bus over PicoBlade then have a 4-diffpair high speed connection?
 
 For high speed
-	Samtec ERDP-013-12.00-TBR-TBL-7-D has twice as many pairs as we need and is $70 + host board connector
-	Can we do cheaper?
-
-		With 8 pairs we can use 4 pairs for JESD + clock and the other 4 for management SPI
-		Then separate PicoBlade for power
-
-	Dual SATA is an option, we don't need CLK/SYSREF/SYNC/JESD to all be length matched?
-	Insertion loss also a concern, only rated to 6 Gbps
-
-	USB-C??
-
-	Samtec ARF6 series
+	Samtec ARF6 series for JESD204 + refclk
+	PicoBlade for power and i2c/spi/something for control plane

@@ -6,7 +6,7 @@
 	(paper "A3")
 	(title_block
 		(title "AYRTON Main Board")
-		(date "2024-11-18")
+		(date "2024-11-21")
 		(rev "0.1")
 		(company "Antikernel Labs")
 		(comment 1 "Andrew D. Zonenberg")

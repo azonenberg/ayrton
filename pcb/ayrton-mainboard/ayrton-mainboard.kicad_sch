@@ -6,15 +6,158 @@
 	(paper "A3")
 	(title_block
 		(title "AYRTON Main Board")
-		(date "2024-11-18")
+		(date "2024-11-21")
 		(rev "0.1")
 		(company "Antikernel Labs")
 		(comment 1 "Andrew D. Zonenberg")
 	)
 	(lib_symbols)
+	(wire
+		(pts
+			(xy 80.01 35.56) (xy 91.44 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "148c43f4-5581-444e-96e8-465678a85e68")
+	)
+	(wire
+		(pts
+			(xy 80.01 43.18) (xy 91.44 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3c4132fd-8c16-4549-a235-5177d11ae8f4")
+	)
+	(wire
+		(pts
+			(xy 80.01 25.4) (xy 91.44 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "42d7ce8f-99e5-48a0-9e99-b030c44efb8c")
+	)
+	(wire
+		(pts
+			(xy 80.01 30.48) (xy 91.44 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "53efa8ec-b795-46ea-b789-d6b371a823f7")
+	)
+	(wire
+		(pts
+			(xy 80.01 27.94) (xy 91.44 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5b7ce24c-bfe6-4720-a8e5-ace9e97725a6")
+	)
+	(wire
+		(pts
+			(xy 80.01 38.1) (xy 91.44 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "918822fa-76fb-4a69-900d-9f14643678f6")
+	)
+	(wire
+		(pts
+			(xy 80.01 45.72) (xy 91.44 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a8f3383b-16ab-4585-9004-407df36dd38d")
+	)
+	(wire
+		(pts
+			(xy 80.01 55.88) (xy 91.44 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d2442afb-02ae-4d2c-a705-f6e3bd2cf973")
+	)
+	(wire
+		(pts
+			(xy 80.01 48.26) (xy 91.44 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e72c2118-97eb-4bc5-bcc4-e4c4e125d365")
+	)
+	(wire
+		(pts
+			(xy 80.01 33.02) (xy 91.44 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eb6dae89-1d19-4734-b4c2-483613d3a841")
+	)
+	(wire
+		(pts
+			(xy 80.01 50.8) (xy 91.44 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f5dde8f8-7265-466e-b226-7a1f74be97c7")
+	)
+	(label "GND"
+		(at 81.28 38.1 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0bfaff9d-76f4-4ff9-9d03-f5ce7fe33a65")
+	)
+	(label "1V8"
+		(at 81.28 27.94 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8a1c79f4-8684-43ba-b694-a4deb5ab92b2")
+	)
+	(label "3V3"
+		(at 81.28 25.4 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d26c7c6c-f301-407c-b546-5dc833699170")
+	)
 	(sheet
-		(at 45.72 99.06)
-		(size 29.21 44.45)
+		(at 43.18 24.13)
+		(size 36.83 99.06)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -25,7 +168,7 @@
 		)
 		(uuid "12be455a-0f5e-474f-8487-685102d61b9f")
 		(property "Sheetname" "Power Supply"
-			(at 45.72 98.3484 0)
+			(at 43.18 23.4184 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34,13 +177,263 @@
 			)
 		)
 		(property "Sheetfile" "psu.kicad_sch"
-			(at 45.72 144.0946 0)
+			(at 43.18 123.7746 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
 			)
+		)
+		(pin "12V0" output
+			(at 43.18 25.4 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "fb250538-f095-4905-9fa3-b991fef06f4a")
+		)
+		(pin "3V3_SB" output
+			(at 43.18 27.94 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "a3a229d9-cc8f-4c1a-9c3b-e861293a78f4")
+		)
+		(pin "GND" output
+			(at 80.01 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "25ba132e-2787-4f5c-9eaa-cd3f764caf9d")
+		)
+		(pin "3V3" output
+			(at 80.01 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "82772050-8f99-4da0-a247-07693fcc2c17")
+		)
+		(pin "1V2" output
+			(at 43.18 40.64 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "6850df5b-f183-46e9-8d20-94821b034072")
+		)
+		(pin "1V8" output
+			(at 80.01 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "3e30add2-dd27-43e7-a4b5-696daaab6eed")
+		)
+		(pin "1V35" output
+			(at 43.18 38.1 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "cefc075a-b26c-49ee-a09f-b18cfaaa72e1")
+		)
+		(pin "RAM_VREF" output
+			(at 43.18 55.88 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "42354e37-2651-42ba-8d28-300eb824095c")
+		)
+		(pin "RAM_VTT" output
+			(at 43.18 58.42 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "aebf1670-68b7-43ba-b63a-7d847014e5bb")
+		)
+		(pin "1V0" output
+			(at 43.18 45.72 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "c3af3209-214b-44ca-955d-08fe49c88f4a")
+		)
+		(pin "1V0_SERDES" output
+			(at 43.18 48.26 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "c03a9a88-9880-4aa6-9eb0-1a2c90c7777a")
+		)
+		(pin "1V1" output
+			(at 80.01 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "f8950465-9903-4579-9fab-e13721f4f24c")
+		)
+		(pin "0V8" output
+			(at 80.01 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "c587741e-a3a5-403d-bb9d-a18a28a723bf")
+		)
+		(pin "0V82" output
+			(at 80.01 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "ab153285-713d-4ecb-94e8-160cdffda5f6")
+		)
+		(pin "2V0" output
+			(at 43.18 33.02 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "77c4e89b-093e-4996-b84b-5cf1668893e4")
+		)
+		(pin "SOC_BOOT0" output
+			(at 80.01 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "c4144e2a-4d94-44c1-9d02-59d825a99c97")
+		)
+		(pin "SOC_BOOT1" output
+			(at 80.01 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "73960874-cdb2-43e5-8291-1cd029d7ab70")
+		)
+		(pin "SOC_BOOT2" output
+			(at 80.01 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "7aa74ba9-8550-42a6-8bab-b9c99357357d")
+		)
+		(pin "SOC_BOOT3" output
+			(at 80.01 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "322b7e74-7249-4866-b131-cfa86d04655a")
+		)
+		(pin "FPGA_RST_N" output
+			(at 80.01 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "c6e35691-915b-42a4-8b66-6d624e403d58")
+		)
+		(pin "SOC_RST_N" output
+			(at 80.01 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "a3fcbf46-3e8b-4042-b030-5f01eca3af55")
+		)
+		(pin "FPGA_DONE" input
+			(at 80.01 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "fe1a54a0-0577-4a07-9f14-1409c84bce16")
+		)
+		(pin "FPGA_INIT" bidirectional
+			(at 80.01 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "e766c0cc-a3a7-4dfb-9081-b5dbf4bb162f")
+		)
+		(pin "SOFT_POWER" input
+			(at 80.01 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "567b5659-abb0-46b4-a8ac-4514f535bc3c")
+		)
+		(pin "SOFT_RESET" input
+			(at 80.01 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "2ab65ff8-c0a3-4504-9fb2-76ccbcfda329")
 		)
 		(instances
 			(project "ayrton-mainboard"
@@ -51,7 +444,7 @@
 		)
 	)
 	(sheet
-		(at 175.895 103.505)
+		(at 271.78 135.89)
 		(size 34.925 41.275)
 		(fields_autoplaced yes)
 		(stroke
@@ -63,7 +456,7 @@
 		)
 		(uuid "6c8dc794-f3c7-4dd0-aa2f-9245b1196599")
 		(property "Sheetname" "PLL"
-			(at 175.895 102.7934 0)
+			(at 271.78 135.1784 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -72,7 +465,7 @@
 			)
 		)
 		(property "Sheetfile" "pll.kicad_sch"
-			(at 175.895 145.3646 0)
+			(at 271.78 177.7496 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -89,7 +482,7 @@
 		)
 	)
 	(sheet
-		(at 176.53 26.67)
+		(at 272.415 59.055)
 		(size 30.48 36.83)
 		(fields_autoplaced yes)
 		(stroke
@@ -101,7 +494,7 @@
 		)
 		(uuid "a0a7c715-7e27-46b6-b673-903a5b100e90")
 		(property "Sheetname" "PCIe and 10G SFP+"
-			(at 176.53 25.9584 0)
+			(at 272.415 58.3434 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -110,7 +503,7 @@
 			)
 		)
 		(property "Sheetfile" "pcie-and-10g.kicad_sch"
-			(at 176.53 64.0846 0)
+			(at 272.415 96.4696 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -127,7 +520,7 @@
 		)
 	)
 	(sheet
-		(at 104.14 26.67)
+		(at 200.025 59.055)
 		(size 40.64 36.83)
 		(fields_autoplaced yes)
 		(stroke
@@ -139,7 +532,7 @@
 		)
 		(uuid "a67f7086-6693-44e8-8a12-55a2cee502ce")
 		(property "Sheetname" "FPGA"
-			(at 104.14 25.9584 0)
+			(at 200.025 58.3434 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -148,7 +541,7 @@
 			)
 		)
 		(property "Sheetfile" "fpga.kicad_sch"
-			(at 104.14 64.0846 0)
+			(at 200.025 96.4696 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -165,8 +558,8 @@
 		)
 	)
 	(sheet
-		(at 45.72 26.67)
-		(size 29.21 36.83)
+		(at 91.44 24.13)
+		(size 29.21 33.02)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -177,7 +570,7 @@
 		)
 		(uuid "c91f89f8-d95d-41a6-af09-5cd635cc4c73")
 		(property "Sheetname" "SOC"
-			(at 45.72 25.9584 0)
+			(at 91.44 23.4184 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -186,13 +579,133 @@
 			)
 		)
 		(property "Sheetfile" "soc.kicad_sch"
-			(at 45.72 64.0846 0)
+			(at 91.44 57.7346 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
 			)
+		)
+		(pin "3V3" input
+			(at 91.44 25.4 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "2a5acf29-1873-4222-a60a-2d7d45cf370c")
+		)
+		(pin "1V8" input
+			(at 91.44 27.94 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "c4d5550e-681d-4206-b298-3d999babb0cd")
+		)
+		(pin "1V1" input
+			(at 91.44 30.48 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "3c7452c7-7b18-42c6-b6f5-7315c49dbbd6")
+		)
+		(pin "0V82" input
+			(at 91.44 33.02 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "0fb3335c-9f91-4d42-8206-55bf3d2a1926")
+		)
+		(pin "0V8" input
+			(at 91.44 35.56 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "484c1286-1918-4dd1-bc45-6233de3277d5")
+		)
+		(pin "GND" input
+			(at 91.44 38.1 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "407589b9-6fa4-4d70-8580-0d9f20610852")
+		)
+		(pin "SOC_BOOT0" input
+			(at 91.44 43.18 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "c93ddbd5-9692-40b6-b86d-57d78d4e4ac2")
+		)
+		(pin "SOC_BOOT1" input
+			(at 91.44 45.72 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "d2185773-bb0a-4c4c-9a54-31c9b5f529f1")
+		)
+		(pin "SOC_BOOT2" input
+			(at 91.44 48.26 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "9ba935e3-2d81-495d-bf63-5b167ba2d8ce")
+		)
+		(pin "SOC_BOOT3" input
+			(at 91.44 50.8 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "e7bbf1e9-58de-4233-9990-e8cd6075cf71")
+		)
+		(pin "SOC_CLK" input
+			(at 120.65 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "311b335a-9f32-453c-9793-ff596ccf4afd")
+		)
+		(pin "SOC_RST_N" input
+			(at 91.44 55.88 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "a311f423-73d8-4ff3-9df5-532c1b9d1c7b")
 		)
 		(instances
 			(project "ayrton-mainboard"
@@ -203,7 +716,7 @@
 		)
 	)
 	(sheet
-		(at 104.14 101.6)
+		(at 200.025 133.985)
 		(size 40.64 44.45)
 		(fields_autoplaced yes)
 		(stroke
@@ -215,7 +728,7 @@
 		)
 		(uuid "f6fa3d68-580e-4966-a5d1-759c191a1b84")
 		(property "Sheetname" "ADC interfaces"
-			(at 104.14 100.8884 0)
+			(at 200.025 133.2734 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -224,7 +737,7 @@
 			)
 		)
 		(property "Sheetfile" "adc-interfaces.kicad_sch"
-			(at 104.14 146.6346 0)
+			(at 200.025 179.0196 0)
 			(effects
 				(font
 					(size 1.27 1.27)
